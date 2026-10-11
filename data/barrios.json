@@ -1,0 +1,442 @@
+{
+  "barrios": [
+    {
+      "codigo": 1,
+      "nombre": "el Raval",
+      "distrito": "Ciutat Vella",
+      "frase": "Barrio de mil cocinas, bares centenarios y comedores de menú donde todavía se come por once euros."
+    },
+    {
+      "codigo": 2,
+      "nombre": "el Barri Gòtic",
+      "distrito": "Ciutat Vella",
+      "frase": "Callejuelas de postal con fondas centenarias escondidas entre terrazas para turistas; hay que saber dónde girar."
+    },
+    {
+      "codigo": 3,
+      "nombre": "la Barceloneta",
+      "distrito": "Ciutat Vella",
+      "frase": ""
+    },
+    {
+      "codigo": 4,
+      "nombre": "Sant Pere, Santa Caterina i la Ribera",
+      "distrito": "Ciutat Vella",
+      "frase": ""
+    },
+    {
+      "codigo": 5,
+      "nombre": "el Fort Pienc",
+      "distrito": "Eixample",
+      "frase": "Eixample sin postureo, entre los Encants y la Estació del Nord, con una pequeña Chinatown en Alí Bei."
+    },
+    {
+      "codigo": 6,
+      "nombre": "la Sagrada Família",
+      "distrito": "Eixample",
+      "frase": ""
+    },
+    {
+      "codigo": 7,
+      "nombre": "la Dreta de l'Eixample",
+      "distrito": "Eixample",
+      "frase": ""
+    },
+    {
+      "codigo": 8,
+      "nombre": "l'Antiga Esquerra de l'Eixample",
+      "distrito": "Eixample",
+      "frase": ""
+    },
+    {
+      "codigo": 9,
+      "nombre": "la Nova Esquerra de l'Eixample",
+      "distrito": "Eixample",
+      "frase": "Eixample de vecinos: bodegas de 1946, vermuterías de barra estrecha y cocina catalana joven sin mantel."
+    },
+    {
+      "codigo": 10,
+      "nombre": "Sant Antoni",
+      "distrito": "Eixample",
+      "frase": ""
+    },
+    {
+      "codigo": 11,
+      "nombre": "el Poble-sec",
+      "distrito": "Sants-Montjuïc",
+      "frase": ""
+    },
+    {
+      "codigo": 12,
+      "nombre": "la Marina del Prat Vermell",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Polígono y puerto más que barrio: se come donde comen los estibadores y los mayoristas de Mercabarna."
+    },
+    {
+      "codigo": 13,
+      "nombre": "la Marina de Port",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Barrio de bloques entre Montjuïc y la Zona Franca, con bares de siempre y alguna cocina seria."
+    },
+    {
+      "codigo": 14,
+      "nombre": "la Font de la Guatlla",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Casitas bajas al pie de Montjuïc, con bodegas de vecinos y la Gran Via rugiendo al otro lado."
+    },
+    {
+      "codigo": 15,
+      "nombre": "Hostafrancs",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Creu Coberta y su mercado: comercio de toda la vida, bodegas vascas y cocina peruana en los bajos."
+    },
+    {
+      "codigo": 16,
+      "nombre": "la Bordeta",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Antiguo pueblo industrial pegado a Sants, de calles estrechas, hornos viejos y poco sitio para turistas."
+    },
+    {
+      "codigo": 17,
+      "nombre": "Sants - Badal",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Barrio de bloques y calles largas donde mandan los gallegos, los peruanos y los menús de mediodía."
+    },
+    {
+      "codigo": 18,
+      "nombre": "Sants",
+      "distrito": "Sants-Montjuïc",
+      "frase": "Antiguo pueblo de fábricas convertido en barrio de plazas, con vermuterías, bodegas y cocina joven en Vallespir."
+    },
+    {
+      "codigo": 19,
+      "nombre": "les Corts",
+      "distrito": "Les Corts",
+      "frase": "Barrio de oficinas y Camp Nou, con clásicos de mantel largo y menús de mediodía de ejecutivo."
+    },
+    {
+      "codigo": 20,
+      "nombre": "la Maternitat i Sant Ramon",
+      "distrito": "Les Corts",
+      "frase": ""
+    },
+    {
+      "codigo": 21,
+      "nombre": "Pedralbes",
+      "distrito": "Les Corts",
+      "frase": ""
+    },
+    {
+      "codigo": 22,
+      "nombre": "Vallvidrera, el Tibidabo i les Planes",
+      "distrito": "Sarrià-Sant Gervasi",
+      "frase": "Bosque, funicular y casas dispersas: aquí se come en masía, con vistas y sin prisa, a mediodía."
+    },
+    {
+      "codigo": 23,
+      "nombre": "Sarrià",
+      "distrito": "Sarrià-Sant Gervasi",
+      "frase": ""
+    },
+    {
+      "codigo": 24,
+      "nombre": "les Tres Torres",
+      "distrito": "Sarrià-Sant Gervasi",
+      "frase": "Zona alta de casas con jardín, donde se come en terrazas tranquilas y en granjas de siempre."
+    },
+    {
+      "codigo": 25,
+      "nombre": "Sant Gervasi - la Bonanova",
+      "distrito": "Sarrià-Sant Gervasi",
+      "frase": ""
+    },
+    {
+      "codigo": 26,
+      "nombre": "Sant Gervasi - Galvany",
+      "distrito": "Sarrià-Sant Gervasi",
+      "frase": ""
+    },
+    {
+      "codigo": 27,
+      "nombre": "el Putxet i el Farró",
+      "distrito": "Sarrià-Sant Gervasi",
+      "frase": "Barrio de cuesta entre Gràcia y Sant Gervasi, de bodegas discretas y comedores pequeños de vecinos."
+    },
+    {
+      "codigo": 28,
+      "nombre": "Vallcarca i els Penitents",
+      "distrito": "Gràcia",
+      "frase": "Barrio en cuesta entre Gràcia y Collserola, de bares de toda la vida y poca cosa más."
+    },
+    {
+      "codigo": 29,
+      "nombre": "el Coll",
+      "distrito": "Gràcia",
+      "frase": "Barrio de ladera entre el Park Güell y Collserola, con pocas mesas y una cocina que sorprende arriba."
+    },
+    {
+      "codigo": 30,
+      "nombre": "la Salut",
+      "distrito": "Gràcia",
+      "frase": "Ladera del Park Güell con calles empinadas, donde todavía quedan granjas y comedores de vecinos."
+    },
+    {
+      "codigo": 31,
+      "nombre": "la Vila de Gràcia",
+      "distrito": "Gràcia",
+      "frase": ""
+    },
+    {
+      "codigo": 32,
+      "nombre": "el Camp d'en Grassot i Gràcia Nova",
+      "distrito": "Gràcia",
+      "frase": "La Gràcia de cuadrícula, sin turistas ni plazas de postal, con bares de barrio en cada esquina."
+    },
+    {
+      "codigo": 33,
+      "nombre": "el Baix Guinardó",
+      "distrito": "Horta-Guinardó",
+      "frase": "Barrio tranquilo bajo el Guinardó, con bodegas de toda la vida y comedores familiares sin pretensiones."
+    },
+    {
+      "codigo": 34,
+      "nombre": "Can Baró",
+      "distrito": "Horta-Guinardó",
+      "frase": "Barrio colgado del Turó de la Rovira, con pocas mesas y las mejores vistas al lado."
+    },
+    {
+      "codigo": 35,
+      "nombre": "el Guinardó",
+      "distrito": "Horta-Guinardó",
+      "frase": "Cuestas largas y bloques de los sesenta, con pizzerías de horno, bares de barra y poco más."
+    },
+    {
+      "codigo": 36,
+      "nombre": "la Font d'en Fargues",
+      "distrito": "Horta-Guinardó",
+      "frase": "Barrio de torres con jardín en la falda del Carmel, tan tranquilo que casi no se nota."
+    },
+    {
+      "codigo": 37,
+      "nombre": "el Carmel",
+      "distrito": "Horta-Guinardó",
+      "frase": "Barrio de cuestas y escaleras mecánicas, con bodegas, rostisseries y bares donde se come por poco."
+    },
+    {
+      "codigo": 38,
+      "nombre": "la Teixonera",
+      "distrito": "Horta-Guinardó",
+      "frase": "Barrio pequeño encajado entre rondas, con bares de toda la vida y poca cosa de postín."
+    },
+    {
+      "codigo": 39,
+      "nombre": "Sant Genís dels Agudells",
+      "distrito": "Horta-Guinardó",
+      "frase": "Bloques entre el hospital y Collserola, con tres bares contados y el bosque empezando ahí mismo."
+    },
+    {
+      "codigo": 40,
+      "nombre": "Montbau",
+      "distrito": "Horta-Guinardó",
+      "frase": "Barrio de los sesenta entre el parque y la ronda, verde y silencioso, con cuatro sitios contados."
+    },
+    {
+      "codigo": 41,
+      "nombre": "la Vall d'Hebron",
+      "distrito": "Horta-Guinardó",
+      "frase": "Hospital, campus y pistas deportivas: un barrio de paso con dos masías históricas escondidas dentro."
+    },
+    {
+      "codigo": 42,
+      "nombre": "la Clota",
+      "distrito": "Horta-Guinardó",
+      "frase": "Setecientos vecinos con aire de pueblo entre el Carmel y la Vall d'Hebron; aquí no hay bares."
+    },
+    {
+      "codigo": 43,
+      "nombre": "Horta",
+      "distrito": "Horta-Guinardó",
+      "frase": "Antiguo pueblo con plaza, lavaderos y masías, donde el bar de los bocadillos es una institución."
+    },
+    {
+      "codigo": 44,
+      "nombre": "Vilapicina i la Torre Llobeta",
+      "distrito": "Nou Barris",
+      "frase": "Barrio de posguerra alrededor de Virrei Amat, con bares de barra larga y mucha cocina de casa."
+    },
+    {
+      "codigo": 45,
+      "nombre": "Porta",
+      "distrito": "Nou Barris",
+      "frase": "Barrio de bloques junto a la ronda, con mesones del norte y menús que aguantan el día entero."
+    },
+    {
+      "codigo": 46,
+      "nombre": "el Turó de la Peira",
+      "distrito": "Nou Barris",
+      "frase": "Barrio de posguerra bajo el turó, con la terraza de tapas más famosa de toda la ciudad."
+    },
+    {
+      "codigo": 47,
+      "nombre": "Can Peguera",
+      "distrito": "Nou Barris",
+      "frase": "Casas baratas de una planta, de los años veinte: un pueblo blanco incrustado entre bloques."
+    },
+    {
+      "codigo": 48,
+      "nombre": "la Guineueta",
+      "distrito": "Nou Barris",
+      "frase": "Bloques entre parques y la ronda de Dalt, con mesones del Bierzo y frankfurts de los de siempre."
+    },
+    {
+      "codigo": 49,
+      "nombre": "Canyelles",
+      "distrito": "Nou Barris",
+      "frase": "Bloques altos rodeados de verde al final de la línea 3, con dos bares contados y buena brasa."
+    },
+    {
+      "codigo": 50,
+      "nombre": "les Roquetes",
+      "distrito": "Nou Barris",
+      "frase": "Barrio de autoconstrucción en la falda de Collserola, con escaleras mecánicas y bares de toda la vida."
+    },
+    {
+      "codigo": 51,
+      "nombre": "Verdun",
+      "distrito": "Nou Barris",
+      "frase": "Barrio obrero de calles en cuesta, con pollo a l'ast, kebabs y bares donde todos se conocen."
+    },
+    {
+      "codigo": 52,
+      "nombre": "la Prosperitat",
+      "distrito": "Nou Barris",
+      "frase": "El barrio más reivindicativo de Nou Barris, con plaza, bodegas viejas y cervecerías de barra larga."
+    },
+    {
+      "codigo": 53,
+      "nombre": "la Trinitat Nova",
+      "distrito": "Nou Barris",
+      "frase": "Barrio rehecho de arriba abajo, con bloques nuevos y la vida social repartida entre dos o tres bares."
+    },
+    {
+      "codigo": 54,
+      "nombre": "Torre Baró",
+      "distrito": "Nou Barris",
+      "frase": "Casitas en la ladera bajo el castillo, con el mirador más alto de la ciudad y poco más."
+    },
+    {
+      "codigo": 55,
+      "nombre": "Ciutat Meridiana",
+      "distrito": "Nou Barris",
+      "frase": "Bloques encajados en la montaña al final de la Meridiana, con los bares en una sola calle."
+    },
+    {
+      "codigo": 56,
+      "nombre": "Vallbona",
+      "distrito": "Nou Barris",
+      "frase": "Mil vecinos, huertos junto al Besòs y aire de pueblo olvidado: el barrio más pequeño de la ciudad."
+    },
+    {
+      "codigo": 57,
+      "nombre": "la Trinitat Vella",
+      "distrito": "Sant Andreu",
+      "frase": "Barrio partido por el nudo de autopistas, con la cárcel al lado y pocos sitios donde sentarse."
+    },
+    {
+      "codigo": 58,
+      "nombre": "Baró de Viver",
+      "distrito": "Sant Andreu",
+      "frase": "Mil quinientos vecinos entre el Besòs y la autopista, con cinco bares que lo son todo."
+    },
+    {
+      "codigo": 59,
+      "nombre": "el Bon Pastor",
+      "distrito": "Sant Andreu",
+      "frase": "Antiguo barrio de casas baratas junto al Besòs, hoy dominado por la Maquinista y sus cadenas."
+    },
+    {
+      "codigo": 60,
+      "nombre": "Sant Andreu",
+      "distrito": "Sant Andreu",
+      "frase": "Pueblo con rambla propia y bodegas centenarias, de los que aún hacen vida de calle a la antigua."
+    },
+    {
+      "codigo": 61,
+      "nombre": "la Sagrera",
+      "distrito": "Sant Andreu",
+      "frase": "Barrio partido por las obras eternas de la estación, con bares de barra que aguantan el temporal."
+    },
+    {
+      "codigo": 62,
+      "nombre": "el Congrés i els Indians",
+      "distrito": "Sant Andreu",
+      "frase": "Dos barrios cosidos alrededor de la plaça Maragall, con bares de siempre y mucha cocina de casa."
+    },
+    {
+      "codigo": 63,
+      "nombre": "Navas",
+      "distrito": "Sant Andreu",
+      "frase": "Cuadrícula tranquila entre Meridiana y Sant Antoni Maria Claret, con bares de barrio en cada esquina."
+    },
+    {
+      "codigo": 64,
+      "nombre": "el Camp de l'Arpa del Clot",
+      "distrito": "Sant Martí",
+      "frase": "Barrio denso de calles estrechas, con bares de barra, granjas antiguas y mucha cocina de fuera."
+    },
+    {
+      "codigo": 65,
+      "nombre": "el Clot",
+      "distrito": "Sant Martí",
+      "frase": "Antiguo pueblo industrial con plaza y campanario, donde todavía se guarda algún secreto de los buenos."
+    },
+    {
+      "codigo": 66,
+      "nombre": "el Parc i la Llacuna del Poblenou",
+      "distrito": "Sant Martí",
+      "frase": "Fábricas reconvertidas en oficinas y lofts, con bares viejos resistiendo entre torres de cristal."
+    },
+    {
+      "codigo": 67,
+      "nombre": "la Vila Olímpica del Poblenou",
+      "distrito": "Sant Martí",
+      "frase": "Barrio inventado para el 92, de bloques ordenados y puerto deportivo: poca cocina de barrio y mucha terraza."
+    },
+    {
+      "codigo": 68,
+      "nombre": "el Poblenou",
+      "distrito": "Sant Martí",
+      "frase": "La rambla, las fábricas y el mar: el barrio con más vida de todo Sant Martí."
+    },
+    {
+      "codigo": 69,
+      "nombre": "Diagonal Mar i el Front Marítim del Poblenou",
+      "distrito": "Sant Martí",
+      "frase": "Torres junto al mar y un centro comercial gigante; lo bueno está en los márgenes, hacia Pellaires."
+    },
+    {
+      "codigo": 70,
+      "nombre": "el Besòs i el Maresme",
+      "distrito": "Sant Martí",
+      "frase": "Bloques de los sesenta entre la Rambla Prim y el Fòrum, con bares viejos y el mar detrás."
+    },
+    {
+      "codigo": 71,
+      "nombre": "Provençals del Poblenou",
+      "distrito": "Sant Martí",
+      "frase": "Barrio de naves y bloques entre el Poblenou y la Verneda, con parrillas argentinas en cada esquina."
+    },
+    {
+      "codigo": 72,
+      "nombre": "Sant Martí de Provençals",
+      "distrito": "Sant Martí",
+      "frase": "Cuadrícula de bloques junto a la Gran Via, con gallegos de barrio y bodegas de menú de mediodía."
+    },
+    {
+      "codigo": 73,
+      "nombre": "la Verneda i la Pau",
+      "distrito": "Sant Martí",
+      "frase": "Último barrio de la ciudad antes del Besòs, de bloques, plazas duras y bares con mucha clientela fija."
+    }
+  ]
+}

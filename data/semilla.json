@@ -1,0 +1,109 @@
+{
+  "registros": [
+    {
+      "codigoBarrio": 1,
+      "restaurante": "Arraval",
+      "estado": "plan",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 2,
+      "restaurante": "Conesa",
+      "estado": "plan",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 3,
+      "restaurante": "Sagardi",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 4,
+      "restaurante": "Murivecchi",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 6,
+      "restaurante": "Lluritu 3",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 7,
+      "restaurante": "Akiro",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 8,
+      "restaurante": "Uniko",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 10,
+      "restaurante": "Candela en Rama",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 11,
+      "restaurante": "Xemei",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 20,
+      "restaurante": "Leña",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 21,
+      "restaurante": "Frankfurt Pedralbes",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 23,
+      "restaurante": "Colmado Carpanta",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 25,
+      "restaurante": "Bar Gañan",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 26,
+      "restaurante": "Ruyshio",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "codigoBarrio": 31,
+      "restaurante": "Santa Magdalena",
+      "estado": "hecho",
+      "creadoEn": "2026-10-11T00:00:00.000Z",
+      "actualizadoEn": "2026-10-11T00:00:00.000Z"
+    }
+  ]
+}

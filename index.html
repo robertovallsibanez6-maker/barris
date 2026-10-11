@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Misión Barris Barcelona</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="description" content="Comer o cenar en cada uno de los 73 barrios de Barcelona.">
+<meta name="theme-color" content="#F4EBDD">
+<meta name="color-scheme" content="light">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Barris">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icono-180.png">
+<link rel="icon" href="icons/icono-192.png" sizes="192x192">
+<link rel="preload" href="fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!-- ───────────────────────────── Mapa ───────────────────────────── -->
+<section class="vista vista--activa" id="vista-mapa">
+
+  <header class="progreso" id="progreso">
+    <button class="progreso__toque" id="progreso-toque" aria-expanded="false"
+            aria-controls="desglose" aria-label="Progreso de la misión">
+      <span class="progreso__cifra">
+        <span class="rodillo" id="rodillo"><span class="rodillo__num">0</span></span>
+        <span class="progreso__barra-sep">/</span>
+        <span class="progreso__total">73</span>
+      </span>
+      <span class="linea-progreso" aria-hidden="true">
+        <span class="linea-progreso__relleno" id="linea-relleno"></span>
+      </span>
+    </button>
+    <div class="desglose" id="desglose" hidden>
+      <div class="desglose__caja" id="desglose-caja"></div>
+    </div>
+  </header>
+
+  <div class="mapa" id="mapa">
+    <svg id="svg-mapa" aria-label="Mapa de los barrios de Barcelona" role="img"></svg>
+    <span class="grano" aria-hidden="true"></span>
+  </div>
+
+</section>
+
+<!-- ───────────────────────────── Ruleta ──────────────────────────── -->
+<section class="vista" id="vista-ruleta">
+  <div class="ruleta">
+    <h1 class="ruleta__titulo">¿Dónde vamos?</h1>
+
+    <div class="tablero" id="tablero" aria-live="polite">
+      <div class="tablero__pista" id="tablero-pista"></div>
+    </div>
+
+    <p class="tablero__distrito" id="tablero-distrito"></p>
+
+    <div class="ruleta__acciones">
+      <button class="boton boton--primario" id="btn-sorpresa">Sorpréndenos</button>
+      <div class="ruleta__enlaces" id="ruleta-enlaces" hidden>
+        <button class="enlace" id="btn-otra-vez">Otra vez<span class="flecha"></span></button>
+        <button class="enlace" id="btn-ver-mapa">Ver en el mapa<span class="flecha"></span></button>
+      </div>
+    </div>
+
+    <div class="ruleta__sugerencias" id="ruleta-sugerencias"></div>
+  </div>
+</section>
+
+<!-- ───────────────────────── Chrome permanente ───────────────────── -->
+<button class="mas" id="btn-mas" aria-label="Añadir restaurante">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5v13M5.5 12h13"/></svg>
+</button>
+
+<nav class="pestanas" id="pestanas" aria-label="Secciones">
+  <button class="pestana pestana--activa" data-vista="mapa" aria-current="page">
+    <svg class="pestana__icono" viewBox="0 0 28 28" aria-hidden="true">
+      <path d="M3.2 7.6 10 5.2l8 2.4 6.8-2.4v15.2L18 22.8l-8-2.4-6.8 2.4z"/>
+      <path d="M10 5.2v15.2M18 7.6v15.2"/>
+    </svg>
+    <span class="pestana__texto">Mapa</span>
+  </button>
+  <button class="pestana" data-vista="ruleta">
+    <svg class="pestana__icono" viewBox="0 0 28 28" aria-hidden="true">
+      <circle cx="14" cy="14" r="9.4"/>
+      <path d="M14 1.8 16.1 11.9 26.2 14 16.1 16.1 14 26.2 11.9 16.1 1.8 14 11.9 11.9z"/>
+    </svg>
+    <span class="pestana__texto">Ruleta</span>
+  </button>
+</nav>
+
+<!-- ──────────────────────────── Capas ───────────────────────────── -->
+<div class="velo" id="velo" hidden></div>
+<div class="hoja" id="hoja" hidden role="dialog" aria-modal="true" aria-label="Barrio">
+  <button class="hoja__asa" id="hoja-asa" aria-label="Cerrar"></button>
+  <div class="hoja__cuerpo" id="hoja-cuerpo"></div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
